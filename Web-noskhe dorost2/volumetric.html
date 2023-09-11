@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hi Guys</title>
+    <style>
+        @font-face {
+    font-family: yekan;
+    src: url(yekan.ttf);
+}
+@font-face {
+    font-family: samim;
+    src: url(Samim-Bold.ttf);
+}
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+</head>
+<body>
+ 
+  <header class="header">
+     <a href="index.html" class="logo">مشهد آلیاژ</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+     <nav class="navbar">
+      <a href="index.html" class="active">خانه</a>
+      <a href="#about">درباره ما</a>
+      <a href="index.html" >خدمات</a>
+      <a href="index.html" >ابزارآلات</a>
+      <a href="index.html">ارتباط با ما</a>
+
+      <span class="active-nav"></span>
+      
+     </nav>
+   
+   </header>
+
+
+    <!-- about section Design -->
+    <section class="about" id="about">
+        <h2 class="heading" style="padding-top: 100px; margin-bottom: -100px; font-family: samim; border-bottom: 1rem solid white; border-bottom-right-radius: 25px; padding-bottom: 20px;"> سختکاری <span> حجمی  </span></h2>
+        <div class="sub__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="image/بریزینگ/1.JPG" alt="jjhhhh"></div>
+                  <div class="swiper-slide"><img src="image/بریزینگ/6.jpg" alt="jjhhhh"></div>
+                  <div class="swiper-slide"><img src="image/بریزینگ/2.JPG" alt="jjhhhh"></div>
+                
+                  <div class="swiper-slide"><img src="image/بریزینگ/4.jpg" alt="jjhhhh"></div>
+                  <div class="swiper-slide"><img src="image/بریزینگ/5.jpg" alt="jjhhhh"></div>
+                  
+            
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+        </div>
+
+        <div class="about-content" style="margin-top: -120px;">
+            
+            <p style="font-family: samim;font-size: 25px;text-align: right;"> شرکت مشهد آلیاژ با بهره گیری از کوره عملیات حرارتی پیشرفته و نیرو های متخصص متالورژی در زمینه عملیات حرارتی و پوشش های سخت و جوشکاری انواع آلیاژ های آهنی و غیر آهنی در حوزه های نفت و گاز ،نیروگاهی ، پالایشگاهی و <br> .فعالیت می نماید ... 
+                
+            </p>
+            <br><br><br><br><br>
+
+        
+            
+        </div>
+
+    </section>
+
+
+   
+
+   <!-- footer Design -->
+
+   <footer class="footer2">
+    <div class="footer-text">
+        <p>© Erfan Mizban. All rigths reserved - My Phone 09036469044</p>
+        <span class="animate scroll" style="--i:1;"></span>
+    </div>
+    <div class="footer-iconTop">
+        <a href=""><i class='bx bx-up-arrow-alt'></i></a>
+        <span class="animate scroll" style="--i:3;"></span>
+    </div>
+    
+  
+   </footer>
+ 
+   
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+  
+        autoplay: {
+            delay:3000,
+            disableOnInteraction:false,
+        },
+ 
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+  </script>
+</body>
+</html>
